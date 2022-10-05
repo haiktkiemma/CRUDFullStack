@@ -14,6 +14,6 @@ try {
  
 app.use(cors());
 app.use(express.json());
-app.use('/products', productRoutes);
+app.use('/api/products', productRoutes);
  
 app.listen(5000, () => console.log('Server running at port 5000'));
